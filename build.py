@@ -20,8 +20,8 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # کنسول وین�
 ROOT = Path(__file__).parent
 SRC = ROOT / "catalogs"
 DST = ROOT / "pages"
-TARGET_W = 2400  # عرض تصویر هر صفحه به پیکسل (۲× maxWidth ۱۲۰۰ توی app.js، برای شارپ موندن روی نمایشگر رتینا)
-QUALITY = 82
+TARGET_W = 3508  # عرض تصویر هر صفحه به پیکسل (معادل ۳۰۰dpi برای A4 افقی، بیشترین کیفیت)
+QUALITY = 95
 
 
 def slug(name, i):
