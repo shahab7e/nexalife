@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>کاتالوگ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <span class="brand-mark"></span>
+      <h1>کاتالوگ نکسالایف</h1>
+    </div>
+
+    <div class="controls">
+      <div id="catalogTabs" class="tabs"></div>
+
+      <div class="nav">
+        <button id="prevBtn" type="button" aria-label="صفحه قبل">›</button>
+        <span id="counter">—</span>
+        <button id="nextBtn" type="button" aria-label="صفحه بعد">‹</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="loading"><span class="spinner"></span> در حال بارگذاری کاتالوگ…</div>
+    <div id="flipbook"></div>
+  </main>
+
+  <footer>
+    <img src="assets/logo-white.svg" alt="آری استودیو" />
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
